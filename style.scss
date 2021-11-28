@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card:hover {
+    transform-style: preserve-3d;
+    .card-text {
+        transform: translateZ(30px);
+    }
+    .card-img-top {
+        transform: translateZ(50px);
+    }
+    .card-title {
+        transform: translateZ(70px);
+    }
+    .card-text {
+        transform: translateZ(30px);
+    }
+    .btn {
+        transform: translateZ(50px);
+    }
+}
